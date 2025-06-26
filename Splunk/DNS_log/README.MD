@@ -46,7 +46,7 @@ This project demonstrates DNS log analysis using Splunk Enterprise. The analysis
 | CNAME      | 257   |
 | PTR        | 309   |
 
-![Breakdown of DNS query types](Breakdown of DNS query types.png)
+![Breakdown of DNS query types](Breakdown-of-DNS-query-types.png)
 
 ---
 
@@ -65,7 +65,7 @@ This project demonstrates DNS log analysis using Splunk Enterprise. The analysis
 | ipv6test.local     | 103   |
 | microsoft.com      | 102   |
 
-![Frequently queried domain names](frequently queried domain names.jpg)
+![Frequently queried domain names](frequently-queried-domain-names.png)
 
 ---
 
@@ -86,7 +86,7 @@ This project demonstrates DNS log analysis using Splunk Enterprise. The analysis
 | 192.168.1.14    | 89    |
 | 192.168.1.14    | 87    |
 
-![Most active user IPs generating DNS traffic](most active user IPs generating DNS traffic.png)
+![Most active user IPs generating DNS traffic](most-active-user-IPs-generating-DNS-traffic.png)
 
 
 ---

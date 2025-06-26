@@ -35,7 +35,7 @@ source="zeek_conn_logs.json" host="vm" sourcetype="_json" duration>1
 - Shows which client and server pairs maintained longer sessions and over which services.
 
 - **Screenshot:**
-![Connections with Duration > 1 Second](Connections-with-Duration-1-Second.jpg)
+![Connections with Duration > 1 Second](Connections-with-Duration-1-Second.png)
 
 ---
 
@@ -53,7 +53,7 @@ source="zeek_conn_logs.json" host="vm" sourcetype="_json"
 - Useful for identifying popular or critical assets in the network.
 
 - **Screenshot:**
-![Most Accessed Internal Servers](Most-Accessed-Internal-Servers.jp)
+![Most Accessed Internal Servers](Most-Accessed-Internal-Servers.png)
 
 ---
 
@@ -70,7 +70,7 @@ source="zeek_conn_logs.json" host="vm" sourcetype="_json"
 - Helps understand service usage and potential exposure.
 
 - **Screenshot:**
-![Most Common Services](Most-Common-Services.jpg)
+![Most Common Services](Most-Common-Services.png)
 
 ---
 
@@ -88,7 +88,7 @@ source="zeek_conn_logs.json" host="vm" sourcetype="_json"
 - Useful for monitoring user/device behavior and spotting anomalies.
 
 - **Screenshot:**
-![Top 10 Client IPs](Top-10-Client-IPs.jpg)
+![Top 10 Client IPs](Top-10-Client-IPs.png)
 
 ---
 ## 💡 What Was Done

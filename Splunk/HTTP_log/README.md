@@ -36,7 +36,7 @@ This project analyzes HTTP server logs using Splunk SIEM. The analysis focuses o
 - Top endpoints and hosts involved in large data transfers are identified.
 
 - **Screenshot:**  
-![Large File Transfers](large-file-transfers-greater-than-500-KB.jpg)
+![Large File Transfers](large-file-transfers-greater-than-500-KB.png)
 
 ---
 
@@ -51,7 +51,7 @@ source="http_logs.json" host="vm" sourcetype="json" status_code>=500 status_code
 - 285 server error (5xx) responses detected, indicating backend or application issues.
 
 - **Screenshot:**  
-![Server Errors](number-of-server-errors-5xx-observed.jpg)
+![Server Errors](number-of-server-errors-5xx-observed.png)
 
 ---
 
@@ -68,7 +68,7 @@ source="http_logs.json" host="vm" sourcetype="json"
 - Identified the top 10 source IPs generating the most web traffic.
 
 - **Screenshot:**  
-![Top 10 Endpoints](top-10-endpoints-generating-web-traffic.jpg)
+![Top 10 Endpoints](top-10-endpoints-generating-web-traffic.png)
 
 ---
 
@@ -85,7 +85,7 @@ user_agent IN ("sqlmap/1.5.1", "curl/7.68.0", "python-requests/2.25.1", "botnet-
   - `sqlmap/1.5.1`, `python-requests/2.25.1`, `curl/7.68.0`, `botnet-checker/1.0`
 
 - **Screenshot:**  
-![Suspicious User Agents](User-Agents-associated-with-possible-scripted-attacks.jpg)
+![Suspicious User Agents](User-Agents-associated-with-possible-scripted-attacks.png)
 
 ---
 

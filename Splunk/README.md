@@ -44,7 +44,7 @@ To achieve unified visibility and actionable insights across DNS, HTTP, and SSH 
 
 ## 🖥️ Main Dashboard Overview
 
-![Network Security Dashboard](main_dashboard.jpg)
+![Network Security Dashboard](main_dashboard.png)
 
 ---
 

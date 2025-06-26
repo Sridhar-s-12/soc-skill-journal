@@ -37,7 +37,7 @@ source="ssh_logs.json" host="vm" sourcetype="json" | stats count by event_type
   - Connection Without Authentication: 286
 
 - **Screenshot:**  
-![SSH Event Type Distribution](Count-all-event-types.jpg)
+![SSH Event Type Distribution](Count-all-event-types.png)
 
 ---
 
@@ -52,7 +52,7 @@ source="ssh_logs.json" host="vm" sourcetype="json" | stats count by "id.orig_h" 
 - These endpoints may indicate sources of brute-force attacks or misconfigured systems.
 
 - **Screenshot:**  
-![Top 10 Endpoints with Failed SSH Login Attempts](top-10-endpoints-with-failed-SSH-login-attempts.jpg)
+![Top 10 Endpoints with Failed SSH Login Attempts](top-10-endpoints-with-failed-SSH-login-attempts.png)
 
 ---
 
@@ -66,7 +66,7 @@ source="ssh_logs.json" host="vm" sourcetype="json" | stats count as total_ssh_co
 - Total SSH connections recorded in the dataset: **1,200**
 
 - **Screenshot:**  
-![Total SSH Connections](total-SSH-connections.jpg)
+![Total SSH Connections](total-SSH-connections.png)
 
 ---
 
