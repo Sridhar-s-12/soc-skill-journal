@@ -36,7 +36,7 @@ This project analyzes HTTP server logs using Splunk SIEM. The analysis focuses o
 - Top endpoints and hosts involved in large data transfers are identified.
 
 - **Screenshot:**  
-![Large File Transfers](large-file-transfers-greater-than-500-KB.png)
+![Large File Transfers](large-file-transfers(large-file-transfersgreater-than-500KB.png)
 
 ---
 
@@ -51,7 +51,7 @@ source="http_logs.json" host="vm" sourcetype="json" status_code>=500 status_code
 - 285 server error (5xx) responses detected, indicating backend or application issues.
 
 - **Screenshot:**  
-![Server Errors](number-of-server-errors-5xx-observed.png)
+![Server Errors](number-of-server-errors5xx-observed.png)
 
 ---
 
