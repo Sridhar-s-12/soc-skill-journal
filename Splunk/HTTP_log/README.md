@@ -36,7 +36,7 @@ This project analyzes HTTP server logs using Splunk SIEM. The analysis focuses o
 - Top endpoints and hosts involved in large data transfers are identified.
 
 - **Screenshot:**  
-![Large File Transfers](large-file-transfers(large-file-transfersgreater-than-500KB.png)
+![Large File Transfers](large-file-transfersgreater-than-500KB.png)
 
 ---
 
