@@ -35,6 +35,7 @@ Demonstrate hands-on blue team skills in deploying, configuring, and simulating 
 - **Wazuh Version:** v4.12.0
 
 - 📸 **Endpoint Overview**  
+
 ![Endpoint Dashboard](endpoint_dashboard.png)
 ---
 
@@ -64,10 +65,12 @@ Demonstrate hands-on blue team skills in deploying, configuring, and simulating 
 | Jul 4, 2025 @ 12:34:04   | kali-purple | sshd: brute force trying to get access to the system. Authentication failed. | 10    | 5763    | 192.168.171.133   |
 | Jul 4, 2025 @ 11:13:49   | kali-purple | sshd: brute force trying to get access to the system. Non existent user.     | 10    | 5712    | 192.168.171.133   |
 
-- 📸 **Threat Hunting View**  
+- 📸 **Threat Hunting ssh bruteforce View**  
+
 ![SSH Brute Force Alert](ssh_bruteforce.png)
 
 - 📸 **Result:** Wazuh’s Active Response module automatically blocked the attacker’s IP after detecting brute-force activity. 
+
 ![Blocked IP Confirmation](attacker_blocked_by_response.png)
 
 ## 📝 File Integrity Monitoring (FIM)
@@ -94,6 +97,7 @@ Demonstrate hands-on blue team skills in deploying, configuring, and simulating 
 | deleted    | c:\users\public\documents\important.txt   | File deleted.                     |
 
 - **Result:** All file changes were detected and alerted in real time, confirming effective FIM configuration.
+
 ![FIM Event Screenshot](FIM_using_Wazuh.png)
 
 ## 📚 Reference
